@@ -1,0 +1,150 @@
+
+		* {box-sizing:border-box;}
+	
+		@font-face{
+		font-family:RobotoSlab;
+		src:url(RobotoSlab-VariableFont_wght.ttf);
+		}		
+	
+			body {
+				background-color:#ffcce6;
+				background-size:cover;
+				background-attachment: fixed;
+			}
+			
+			#wrapper {
+				width:1150px;
+				margin:auto;
+				border:6px solid #734d26;
+			}
+			
+			header{
+				height:170px;
+				background-image:url("plaidbg.webp");
+				background-color:#734d26;
+				background-size:cover;
+				border: 2px solid #734d26;
+				color:#734d26;
+				text-align:center;
+				font-family:RobotoSlab;
+				text-shadow:0px 0px 3px black, 4px 4px 5px #734d26;
+				font-size:33px;
+			}	
+			
+			main{
+				background-color:white;
+				height:410px;
+				color:#734d26;
+				margin:0px;
+				padding:10px;
+				padding-top:5px;
+				padding-bottom:5px;
+				border: 2px solid #734d26;
+			}
+			
+			section {
+				background-color:white;
+				height:550px;
+				color:#734d26;
+				margin:0px;
+				padding:10px;
+				padding-top:5px;
+				padding-bottom:5px;
+				border: 2px solid #734d26;
+			}
+			
+			#intro_main {
+				height:250px;
+			}
+			
+			#digitalgallery_main {
+				height:1600px;
+			}
+			
+			#digitalgallery_section{
+				height:2050px;
+			}
+			
+			#tradgallery_main {
+				height:750px;
+			}
+			
+			#other_gallery {
+				height:650px;
+			}
+			
+			#other_section {
+				height:450px;
+			}
+			
+			#other_footer{
+				height:660px;
+			}
+			
+			.column {
+				 float: left;
+				 width: 33.33%;
+				 padding: 5px;
+			}
+
+			.row::after {
+				 content: "";
+				 clear: both;
+				 display: table;
+		`		}
+		
+			#me_pic {
+				height:190px;
+				width:150px;
+				float:right;
+				margin-right:10px;
+				margin-top:20px;
+				border:2px solid #734d26;
+			}
+			
+			article {
+				background-color:white;
+				height:570px;
+				color:#734d26;
+				margin:0px;
+				padding:20px;
+				border: 5px solid #734d26;
+			}
+
+			footer{
+				background-color:white;
+				height:230px;
+				color:#734d26;
+				margin:0px;
+				padding:20px;
+				border: 2px solid #734d26;
+			}
+			
+			footer ul {columns:2;}
+			
+			nav {
+				height:65px;
+				background-color:#734d26;
+				border-top:1px solid;
+				border-bottom: 1px solid #734d26;
+			}
+
+			nav ul {
+				list-style-type:none;
+				padding:0px;
+				margin:0px;
+				display:flex;
+			}
+			
+			nav ul li {margin:auto;}
+			
+			nav a {
+				display:block;
+				text-decoration:none;
+				font-weight:bold;
+				font-size:27px;
+				color: #ffcce6;
+				padding:0px 20px;
+				height:60px;
+				line-height:65px;
+			}
